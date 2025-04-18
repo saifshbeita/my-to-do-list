@@ -1,0 +1,148 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8f4e6, #fffcf2); /* Cream white gradient background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fffcf2; /* Cream white */
+  padding: 30px 25px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 12px 24px rgba(57, 0, 7, 0.1); /* Burgundy shadow */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 14px 28px rgba(57, 0, 7, 0.15); /* Enhanced burgundy shadow on hover */
+}
+
+/* Header with logo styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #390007; /* Burgundy heading */
+  font-weight: 600;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 70%;
+  border: 1.5px solid #e6ddc6; /* Light cream border */
+  border-radius: 8px;
+  outline: none;
+  background-color: #fffcf2; /* Cream white background */
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #390007; /* Burgundy border on focus */
+}
+
+button {
+  padding: 12px;
+  background-color: #390007; /* Burgundy background */
+  color: #fffcf2; /* Cream white text */
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4e0a12; /* Slightly lighter burgundy on hover */
+  transform: translateY(-2px);
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  background-color: #f8f4e6; /* Light cream background */
+  margin: 8px 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border-left: 3px solid #390007; /* Burgundy accent border */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background-color: #f5eedd; /* Slightly darker cream on hover */
+  transform: translateX(3px);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #bbab8c; /* Muted cream color */
+}
+
+li span button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #390007; /* Burgundy button color */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+li span button:hover {
+  transform: scale(1.2);
+  color: #6a0511; /* Lighter burgundy on hover */
+}
+
+/* Add some burgundy accents */
+::selection {
+  background-color: rgba(57, 0, 7, 0.2); /* Subtle burgundy selection */
+}
+
+/* Custom scrollbar for compatible browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f4e6; /* Light cream */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(57, 0, 7, 0.6); /* Burgundy thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(57, 0, 7, 0.8); /* Darker burgundy on hover */
+}
