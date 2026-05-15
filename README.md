@@ -1,17 +1,17 @@
- Project Description for "my to-do list."
-Title:  My to-do list
+Project Description for "to-do list."
+Title:  to-do list
 Tech Stack: HTML, CSS, JavaScript, LocalStorage
 
 Description:
 This simple and responsive To-Do List web app allows users to add, complete, and delete tasks directly from their browser. It uses the browser's localStorage to save tasks, so your list stays even after refreshing or closing the tab.
 
-The app is built with pure HTML, CSS, and JavaScript - no frameworks or libraries — making it a perfect beginner project for practicing DOM manipulation, event handling, and data persistence.
+The app is built with pure HTML, CSS, and JavaScript [ no frameworks or libraries ],  making it a beginner project 
 
  Features:
 
  Add tasks with one click
 
- Mark tasks as complete (toggle)
+ Mark tasks as complete 
 
  Delete tasks
 
