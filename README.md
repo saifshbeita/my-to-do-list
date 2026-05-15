@@ -1,5 +1,7 @@
 Project Description for "to-do list."
+
 Title:  to-do list
+
 Tech Stack: HTML, CSS, JavaScript, LocalStorage
 
 Description:
